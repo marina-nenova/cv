@@ -11,11 +11,13 @@ h1{
     margin-bottom: 20px;
     font-family: "Parisienne", sans-serif;
     color: #9C9EFE;
-    font-size: 70px;
+    font-size: 4.375rem;
 }
 
 h2{
     font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
 
 }
 
@@ -31,16 +33,16 @@ h3{
 }
 
 .top-cloud{
-    width: 200px;
-    height: 90px;
+    width: 12.5rem;
+    height: 5.625rem;
     position: absolute;
     right:300px;
     top: 50px
 }
 
 .bottom-cloud{
-    width: 200px;
-    height: 90px;
+    width: 12.5rem;
+    height: 5.625rem;
     position: absolute;
     left: 100px;
     bottom: 200px;
@@ -48,16 +50,57 @@ h3{
 }
 
 .middle-container{
-    background-color: #AAC4FF;
-    height: 200px;
-    width: 200px;
+    background-color: #EEF1FF;
+
 }
 
 .bottom-container{
-    background-color: #B1B2FF;
-    height: 200px;
-    width: 200px;
+    background-color: #EEF1FF;
 }
 p{
     font-size: 20px;
+    color: #495C83;
+}
+
+.girl{
+    height: 12.5rem;
+    width: 12.5rem;
+    
+}
+.computer-front-end{
+    width: 25%;
+    float: right;
+    margin-left: 50px;
+}
+
+.computer-back-end{
+    width: 25%;
+    float: left;
+    margin-right: 50px;
+}
+
+.skill-row{
+    width: 50%;
+    text-align: left;
+    margin: 80px auto 100px auto;
+    line-height: 2;
+
+}
+
+.skills{
+    margin: 100px auto 100px auto;
+}
+
+.skills > div{
+    margin-bottom: 150px;
+}
+
+.profile{
+    margin: 100px auto 100px auto;
+    width: 50%;
+}
+
+.contact-me{
+    margin: 100px auto 100px auto;
+    width: 50%;
 }
