@@ -26,10 +26,24 @@ h3{
     
 }
 
+p{
+    font-size: 20px;
+    color: #495C83;
+    margin: 50px auto 50px auto;
+}
+
 .top-container{
     background-color: #D2DAFF;
     position: relative;
     padding-top: 100px;
+}
+
+.middle-container{
+    background-color: #EEF1FF;
+}
+
+.bottom-container{
+    background-color: #AAC4FF;
 }
 
 .top-cloud{
@@ -47,19 +61,6 @@ h3{
     left: 100px;
     bottom: 200px;
 
-}
-
-.middle-container{
-    background-color: #EEF1FF;
-
-}
-
-.bottom-container{
-    background-color: #EEF1FF;
-}
-p{
-    font-size: 20px;
-    color: #495C83;
 }
 
 .girl{
@@ -87,16 +88,8 @@ p{
 
 }
 
-.skills{
-    margin: 100px auto 100px auto;
-}
-
-.skills > div{
-    margin-bottom: 150px;
-}
-
 .profile{
-    margin: 100px auto 100px auto;
+    margin: 100px auto;
     width: 50%;
 }
 
@@ -104,3 +97,49 @@ p{
     margin: 100px auto 100px auto;
     width: 50%;
 }
+
+.btn {
+    background: #D2DAFF;
+    background-image: -webkit-linear-gradient(top, #D2DAFF, #B1B2FF);
+    background-image: -moz-linear-gradient(top, #D2DAFF, #B1B2FF);
+    background-image: -ms-linear-gradient(top, #D2DAFF, #B1B2FF);
+    background-image: -o-linear-gradient(top, #D2DAFF, #B1B2FF);
+    background-image: linear-gradient(to bottom, #D2DAFF, #B1B2FF);
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 1px 3px #d2daff;
+    -moz-box-shadow: 0px 1px 3px #d2daff;
+    box-shadow: 0px 1px 3px #d2daff;
+    font-family: Georgia;
+    color: #EEF1FF;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #7895B2 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #B1B2FF;
+    background-image: -webkit-linear-gradient(top, #B1B2FF, #3498db);
+    background-image: -moz-linear-gradient(top, #B1B2FF, #3498db);
+    background-image: -ms-linear-gradient(top, #B1B2FF, #3498db);
+    background-image: -o-linear-gradient(top, #B1B2FF, #3498db);
+    background-image: linear-gradient(to bottom, #B1B2FF, #3498db);
+    text-decoration: none;
+  }
+
+  .bottom-container img{
+    margin: 40px 10px 10px 10px;
+  }
+
+  .bottom-container p{
+    margin: 10px auto;
+  }
+
+  hr{
+    border-top: dotted;
+    width: 20%;
+    color: #D2DAFF;
+    margin: 100px auto;
+  }
