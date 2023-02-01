@@ -1,0 +1,54 @@
+#about {
+  background-color: var(--clr-gray);
+}
+
+#about .about__container {
+  max-width: 1440px;
+  width: calc(100% - 2 * 220px);
+  margin: 100px auto;
+  display: flex;
+  gap: 75px;
+}
+
+#about .about__container .portrait__img {
+  width: 330px;
+  height: 420px;
+}
+
+#about .about__info .about__name {
+  font-family: var(--font-headers);
+  color: var(--clr-yellow);
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 52px;
+  margin-bottom: 25px;
+}
+
+#about .about__info .about__text {
+  color: var(--clr-white);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+
+#about .about__info .skills__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px 60px;
+}
+
+#about .about__info .skills__list .skill::before {
+  content: "\2022";
+  color: var(--clr-yellow);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+
+#about .about__info .skills__list .skill {
+  color: var(--clr-white);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
