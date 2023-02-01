@@ -1,0 +1,90 @@
+#contacts {
+  background-color: var(--clr-black);
+}
+
+#contacts .contacts__container {
+  max-width: 1440px;
+  width: calc(100% - 2 * 350px);
+  margin: 100px auto;
+  text-align: center;
+}
+
+#contacts .contact__wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+#contacts .contact__info .contact__title {
+  text-align: start;
+  font-family: var(--font-headers);
+  color: var(--clr-yellow);
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 52px;
+  margin-bottom: 25px;
+}
+
+#contacts .contact__info .contact__text {
+  text-align: start;
+  width: 80%;
+  color: var(--clr-white);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+#contacts .contact__info .social__links {
+  display: flex;
+  gap: 10px;
+}
+
+#contacts .contact__info .social__links .social__item {
+  background-color: var(--clr-gray);
+  border-radius: 100%;
+  text-align: center;
+}
+
+#contacts .contact__info .social__links .social__item i {
+  color: var(--clr-white);
+  padding: 8px;
+}
+
+#contacts .email__form .label {
+  display: block;
+  text-align: start;
+  margin-bottom: 8px;
+  color: var(--clr-white);
+}
+
+#contacts .email__form input {
+  background-color: var(--clr-gray);
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 16px;
+}
+
+#contacts .email__form textarea {
+  background-color: var(--clr-gray);
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  width: 250px;
+  resize: none;
+  margin-bottom: 16px;
+}
+
+#contacts .email__form .send__btn {
+  position: relative;
+  right: 0px;
+  background-color: var(--clr-yellow);
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}

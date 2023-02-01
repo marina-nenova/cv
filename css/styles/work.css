@@ -9,7 +9,7 @@
 #work .work__container {
   max-width: 1440px;
   width: calc(100% - 2 * 150px);
-  margin: 0 auto;
+  margin: 100px auto;
   text-align: center;
   padding: 32px 0;
 }
