@@ -1,0 +1,80 @@
+#education {
+  background-color: var(--clr-gray);
+}
+
+#education .education__container {
+  max-width: 1440px;
+  width: calc(100% - 2 * 100px);
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+#education .university__list .university__item {
+    margin-bottom: 32px;
+}
+
+#education .university__list .university__item .university__major {
+  color: var(--clr-yellow);
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#education .university__list .university__item .university__inst {
+  color: var(--clr-white);
+  font-size: 18px;
+  line-height: 32px;
+  margin: 5px;
+}
+
+#education .university__list .university__item .university__period {
+  color: var(--clr-white);
+  font-size: 14px;
+  line-height: 30px;
+  margin: 5px;
+}
+
+#education
+  .education__container
+  .certificates
+  .certificates__list
+  .cert__item
+  .soft__logo {
+  width: 48px;
+  background-color: var(--clr-black);
+  padding: 6px;
+  border-radius: 100%;
+}
+
+#education .certificates__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 20px;
+}
+
+#education .certificates__list .cert__item {
+    text-align: center;
+}
+
+#education
+  .certificates
+  .certificates__list
+  .cert__item
+  .soft__logo {
+  width: 48px;
+  background-color: var(--clr-black);
+  padding: 6px;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+#education .certificates__list .cert__item .cert__link {
+    text-decoration: none;
+    color: var(--clr-yellow);
+    
+}
+
+#education .certificates__list .cert__item .cert__link .cert__name {
+    margin-bottom: 10px;
+    line-height: 32px;
+}
