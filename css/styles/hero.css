@@ -1,0 +1,70 @@
+#hero {
+  background-color: var(--clr-black);
+}
+
+#hero .hero__info {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+#hero .hero__info .contacts__sidebar {
+  position: absolute;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#hero .hero__info .contacts__sidebar .contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+#hero .contacts__sidebar .contacts .contacts__item {
+  background-color: var(--clr-gray);
+  border-radius: 100%;
+  text-align: center;
+  padding: 8px;
+}
+
+#hero .contacts__sidebar .contacts .contacts__item i {
+  color: var(--clr-white);
+  font-size: 1.2rem;
+}
+
+#hero .contacts__sidebar .scroll-dw {
+  color: var(--clr-white);
+  writing-mode: vertical-rl;
+  text-orientation: sideways-left;
+  rotate: 180deg;
+}
+
+#hero .hero__info .hero__img {
+  width: 250px;
+  height: 250px;
+  margin: 32px auto;
+}
+
+#hero .hero__info .hero__name {
+  font-family: var(--font-headers);
+  color: var(--clr-yellow);
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 52px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+#hero .hero__info .hero__desc {
+  color: var(--clr-white);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
