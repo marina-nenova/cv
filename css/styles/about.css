@@ -10,6 +10,12 @@
   gap: 75px;
 }
 
+
+#about .about__info .divider {
+    border-bottom: 4px solid var(--clr-white);
+    color: var(--clr-white);
+    width: 70px;
+}
 #about .about__container .portrait__img {
   width: 330px;
   height: 420px;

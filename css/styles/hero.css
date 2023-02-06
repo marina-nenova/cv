@@ -5,8 +5,8 @@
 #hero .hero__info {
   position: relative;
   max-width: 1440px;
-  margin: 100px auto;
-  padding: 32px 0;
+  margin: 16px auto;
+  padding: 16px 0;
 }
 
 #hero .hero__info .contacts__sidebar {
